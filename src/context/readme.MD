@@ -1,0 +1,1 @@
+# We have different components inside the react project and to pass them data we can use props but it is not a good way always so we want to send data to the required components from a centralised location
