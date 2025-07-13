@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 // default behaviour of form is to reload on submit
-const Login = () => {
+const Login = (props) => {
   const [email,setEmail] = useState('');
   const [password,setPassword] = useState('');
 
@@ -8,7 +8,7 @@ const Login = () => {
     e.preventDefault();
     console.log("Form submitted")
     console.log(email," ",password);
-
+    props.handleLogin(email,password);
     setEmail("");
     setPassword("");
   }
