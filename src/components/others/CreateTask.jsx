@@ -95,7 +95,7 @@ const CreateTask = () => {
                     className='bg-[#1c1c1c] border border-amber-50  rounded placeholder:text-amber-50 p-2 w-[80%] mb-7'
                     name="" id=""></textarea>
                 </div>
-                <button className='w-[80%] h-10 rounded text-black bg-green-500'>Create Task</button>
+                <button className='w-[80%] h-10 rounded text-black bg-green-500 hover:cursor-pointer'>Create Task</button>
             </div>      
     </div>
     </form>
