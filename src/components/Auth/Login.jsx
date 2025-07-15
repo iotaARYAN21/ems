@@ -32,7 +32,7 @@ const Login = (props) => {
                   value={password}
                   onChange={(e)=>(setPassword(e.target.value))} 
                   className='border-2 border-red-400 rounded-full py-3 px-5 mt-3 text-xl text-black outline-none bg-transparent placeholder:text-gray-400' type="password" placeholder='Enter your password' />
-                <button className='border-2 border-red-400 rounded-full py-3 px-5 mt-3 text-xl text-black outline-none bg-transparent'>Login</button>
+                <button className='border-2 font-semibold bg-red-500 rounded-full py-3 px-5 mt-3 text-xl text-black outline-none '>Login</button>
             </form>
         </div>
     </div>
